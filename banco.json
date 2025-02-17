@@ -1,0 +1,20 @@
+{
+    "produto":[
+        {
+            "id": 1,
+            "nome":"Notebook",
+            "quantidade": 2,
+            "preco": 1900.00,
+            "status": "Ativo",
+            "descricao": "Core i7, SSD 500GB, Windows 10"
+        },
+        {
+            "id": 2,
+            "nome":"TV Smart 55",
+            "quantidade": 20,
+            "preco": 3900.00,
+            "status": "Ativo",
+            "descricao": "Samsung OLED"
+        }
+    ]
+}
