@@ -1,9 +1,12 @@
-import {Cadastro} from "./Cadastro"
+import { Content } from "./components/Content";
+import { Menu } from "./components/Menu";
+
 
 export function App(){
   return(
     <>
-      <Cadastro/>
+      <Menu />
+      <Content />
     </>
   )
 }
