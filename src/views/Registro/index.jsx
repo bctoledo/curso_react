@@ -33,8 +33,8 @@ export function Registro(){
     }  
 
     return(
-        <main className="container">
-            <h1 className="mt-4">Registro</h1>
+        <div className="container">
+            <h1 className="mt-5 mb-5">Registro</h1>
 
             <form onSubmit={salve}>
                 <div className="row mt-5">
@@ -90,6 +90,6 @@ export function Registro(){
                 <button className="btn btn-primary">Cadastrar</button>
                 <button className="btn btn-warning">Cancelar</button>
             </form>
-        </main>
+        </div>
     )
 }
