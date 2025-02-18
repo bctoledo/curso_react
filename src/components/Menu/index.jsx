@@ -2,16 +2,16 @@ import { Link } from "react-router-dom"
 import "./menu.css"
 export function Menu(){
     return(
-        <nav>
+        <nav className="menu">
             <ul>
                 <li>
-                    <Link href="#">Cadastro</Link>
+                    <Link to="/cadastro">Cadastro</Link>
                 </li>
                 <li>
-                    <Link href="#">Registro</Link>
+                    <Link to="/registro">Registro</Link>
                 </li>
                 <li>
-                    <Link href="#">Login</Link>
+                    <Link to="/login">Login</Link>
                 </li>
             </ul>
 
