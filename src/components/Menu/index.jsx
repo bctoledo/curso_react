@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom"
 import "./menu.css"
 export function Menu(){
     return(
         <nav>
             <ul>
                 <li>
-                    <a href="#">Cadastro</a>
+                    <Link href="#">Cadastro</Link>
                 </li>
                 <li>
-                    <a href="#">Registro</a>
+                    <Link href="#">Registro</Link>
                 </li>
                 <li>
-                    <a href="#">Login</a>
+                    <Link href="#">Login</Link>
                 </li>
             </ul>
 
